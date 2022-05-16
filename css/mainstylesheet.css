@@ -1,0 +1,38 @@
+/* NOT WORKING, MOST LIKELY BECAUSE OF BROWSER FONT SUPPORT */
+
+* {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+body, html {
+	cursor: none;
+	background-color: white;
+	width: 100%;
+	height: 100%;
+}
+
+#wrapper {
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+#wagon {
+	position: absolute;
+	height: 20%;
+	width: 20%;
+	z-index: 1;
+	bottom: 0;
+}
+
+#groundImage {
+	width: 100%;
+	position: absolute;
+	z-index: 0;
+	bottom: 0;
+	left: 0;
+}
+
